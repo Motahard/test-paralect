@@ -1,0 +1,61 @@
+.emptyList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.userRepos {
+    width: 100%;
+}
+
+.previosLabel, .nextLabel {
+    color: #808080;
+    font-weight: 600;
+}
+
+
+.paginationButtons {
+    list-style: none;
+    color:#808080;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-left: 20px;
+}
+
+.paginationButtons > li {
+    display:inline-block;
+    cursor: pointer;
+    padding: 6px 2px;
+}
+
+.paginationButtons a {
+    margin: 8px;
+    border-radius: 6px;
+    padding-top: 5px;
+}
+
+.paginationActive {
+    background-color: #0064EB;
+    color: #ffffff;
+    border-radius: 6px;
+}
+
+.paginateContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #808080;
+}
+
+
+@media (max-width: 760px) {
+    .paginateContainer {
+        flex-direction: column-reverse;
+    }
+}

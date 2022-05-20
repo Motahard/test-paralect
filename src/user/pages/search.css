@@ -1,0 +1,12 @@
+.container-search {
+  color: #808080;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.container-search > p:last-child {
+    margin-top: 0;
+}

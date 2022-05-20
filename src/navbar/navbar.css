@@ -1,0 +1,40 @@
+.navbar {
+    background-color: #0064EB;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    height: 72px;
+    padding: 0 2rem;
+}
+
+.search {
+    border: none;
+    background: url(../assets/search.png) no-repeat 2% 50%;
+    height: 40px;
+    width: 500px;
+    padding-left: 30px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    font-family: var(--font-fm);
+}
+
+.search:focus {
+    outline: none;
+}
+
+@media (max-width: 760px) {
+    .search {
+        width: 300px;
+    }
+    
+}
+
+@media (max-width: 400px) {
+    .search {
+        width: 170px;
+    }
+    .navbar {
+        padding: 0.5rem;
+    }
+}

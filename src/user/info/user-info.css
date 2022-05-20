@@ -1,0 +1,35 @@
+img {
+    border-radius: 50%;
+    max-height: 280px;
+    max-width: 280px;
+}
+
+.userName {
+    margin: 1.5rem 0 1rem 0;
+}
+
+.userLink {
+    text-decoration: none;
+    color: #0064EB;
+}
+
+.followsContainer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    justify-content: space-between;
+}
+
+.followsContainer > p {
+    display: flex;
+}
+
+.followers, .following {
+    margin-left: 0.5rem;
+}
+
+@media (max-width:760px) {
+    .followsContainer {
+        justify-content: flex-start;
+    }
+}

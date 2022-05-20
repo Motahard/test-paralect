@@ -1,0 +1,14 @@
+.reposLink {
+    text-decoration: none;
+    color: #0064EB;
+    font-weight: 600;
+}
+
+.reposItem {
+    padding: 24px 32px 24px 32px;
+    background-color: #ffffff;
+    margin: 1rem 0;
+    border-radius: 6px;
+    max-width: 100%;
+    min-height: 70px;
+}

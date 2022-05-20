@@ -1,0 +1,18 @@
+.userContainer {
+    display: flex;
+    gap: 5rem;
+    justify-content: left;
+    position: relative;
+}
+
+.userInfo {
+    justify-items: flex-start;
+}
+
+@media (max-width: 760px) {
+    .userContainer {
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+}
